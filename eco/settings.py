@@ -94,11 +94,11 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'eco', 
-        'USER': 'admin', 
-        'PASSWORD': 'asd10023', 
-        'HOST': 'database-1.cttdz8vrk1ef.ap-northeast-2.rds.amazonaws.com', 
-        'PORT': '3306', 
+        'NAME': '', 
+        'USER': '', 
+        'PASSWORD': '', 
+        'HOST': '', 
+        'PORT': '', 
         'OPTIONS':{
             'init_command' : "SET sql_mode='STRICT_TRANS_TABLES'"
         }
